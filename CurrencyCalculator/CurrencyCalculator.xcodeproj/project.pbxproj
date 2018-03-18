@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20021C9C205F21E000D4C0A3 /* MonthCurrencyChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20021C9B205F21E000D4C0A3 /* MonthCurrencyChartViewController.swift */; };
 		20280E4D205F1A260023DE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20280E4C205F1A260023DE98 /* AppDelegate.swift */; };
 		20280E4F205F1A260023DE98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20280E4E205F1A260023DE98 /* ViewController.swift */; };
 		20280E52205F1A260023DE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20280E50205F1A260023DE98 /* Main.storyboard */; };
 		20280E54205F1A260023DE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20280E53205F1A260023DE98 /* Assets.xcassets */; };
 		20280E57205F1A260023DE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20280E55205F1A260023DE98 /* LaunchScreen.storyboard */; };
+		20280E5F205F1BFD0023DE98 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20280E5E205F1BFD0023DE98 /* CalculateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20021C9B205F21E000D4C0A3 /* MonthCurrencyChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCurrencyChartViewController.swift; sourceTree = "<group>"; };
 		20280E49205F1A260023DE98 /* CurrencyCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20280E4C205F1A260023DE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20280E4E205F1A260023DE98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		20280E53205F1A260023DE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20280E56205F1A260023DE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20280E58205F1A260023DE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20280E5E205F1BFD0023DE98 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				20280E4C205F1A260023DE98 /* AppDelegate.swift */,
 				20280E4E205F1A260023DE98 /* ViewController.swift */,
 				20280E50205F1A260023DE98 /* Main.storyboard */,
+				20021C9B205F21E000D4C0A3 /* MonthCurrencyChartViewController.swift */,
+				20280E5E205F1BFD0023DE98 /* CalculateViewController.swift */,
 				20280E53205F1A260023DE98 /* Assets.xcassets */,
 				20280E55205F1A260023DE98 /* LaunchScreen.storyboard */,
 				20280E58205F1A260023DE98 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				20280E4F205F1A260023DE98 /* ViewController.swift in Sources */,
 				20280E4D205F1A260023DE98 /* AppDelegate.swift in Sources */,
+				20280E5F205F1BFD0023DE98 /* CalculateViewController.swift in Sources */,
+				20021C9C205F21E000D4C0A3 /* MonthCurrencyChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
