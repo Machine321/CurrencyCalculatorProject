@@ -129,20 +129,30 @@
             </objects>
             <point key="canvasLocation" x="1932" y="859.52023988005999"/>
         </scene>
-        <!--View Controller-->
+        <!--Bar Chart View Controller-->
         <scene sceneID="s9s-fZ-Ria">
             <objects>
-                <viewController id="MLm-n8-0B0" sceneMemberID="viewController">
+                <viewController id="MLm-n8-0B0" customClass="BarChartViewController" customModule="CurrencyCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hmn-OF-ypd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="reD-tc-7h7" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8a1-yc-OTy"/>
                     </view>
+                    <connections>
+                        <outlet property="barChartView" destination="reD-tc-7h7" id="tRv-d4-csS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QdI-2Q-M8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2868" y="860"/>
+            <point key="canvasLocation" x="2868" y="859.52023988005999"/>
         </scene>
         <!--Currency Rates Step One View Controller-->
         <scene sceneID="OsF-jo-xPk">

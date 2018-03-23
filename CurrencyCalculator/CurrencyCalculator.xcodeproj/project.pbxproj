@@ -14,6 +14,7 @@
 		20280E54205F1A260023DE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20280E53205F1A260023DE98 /* Assets.xcassets */; };
 		20280E57205F1A260023DE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20280E55205F1A260023DE98 /* LaunchScreen.storyboard */; };
 		20280E5F205F1BFD0023DE98 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20280E5E205F1BFD0023DE98 /* CalculateViewController.swift */; };
+		2048302F20655C960086CAEF /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2048302E20655C960086CAEF /* BarChartViewController.swift */; };
 		205BD6002064106C00449ED3 /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BD5FF2064106C00449ED3 /* Currencies.swift */; };
 		205BD6022064165100449ED3 /* CurrencyRatesStepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BD6012064165100449ED3 /* CurrencyRatesStepOneViewController.swift */; };
 		205BD60420641C6100449ED3 /* RatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BD60320641C6100449ED3 /* RatesTableViewController.swift */; };
@@ -32,6 +33,7 @@
 		20280E58205F1A260023DE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20280E5E205F1BFD0023DE98 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		20483016206534790086CAEF /* CurrencyCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurrencyCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		2048302E20655C960086CAEF /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		205BD5FF2064106C00449ED3 /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
 		205BD6012064165100449ED3 /* CurrencyRatesStepOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRatesStepOneViewController.swift; sourceTree = "<group>"; };
 		205BD60320641C6100449ED3 /* RatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesTableViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				20280E4C205F1A260023DE98 /* AppDelegate.swift */,
 				20280E4E205F1A260023DE98 /* ViewController.swift */,
 				20280E50205F1A260023DE98 /* Main.storyboard */,
+				2048302E20655C960086CAEF /* BarChartViewController.swift */,
 				205BD60320641C6100449ED3 /* RatesTableViewController.swift */,
 				205BD60520641E8500449ED3 /* CurrencyRates.swift */,
 				205BD6012064165100449ED3 /* CurrencyRatesStepOneViewController.swift */,
@@ -186,11 +189,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CurrencyCalculator/Pods-CurrencyCalculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
 				"${BUILT_PRODUCTS_DIR}/MonthYearPicker/MonthYearPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MonthYearPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -239,6 +250,7 @@
 			files = (
 				205BD60620641E8500449ED3 /* CurrencyRates.swift in Sources */,
 				205BD60420641C6100449ED3 /* RatesTableViewController.swift in Sources */,
+				2048302F20655C960086CAEF /* BarChartViewController.swift in Sources */,
 				20280E4F205F1A260023DE98 /* ViewController.swift in Sources */,
 				20280E4D205F1A260023DE98 /* AppDelegate.swift in Sources */,
 				20280E5F205F1BFD0023DE98 /* CalculateViewController.swift in Sources */,
