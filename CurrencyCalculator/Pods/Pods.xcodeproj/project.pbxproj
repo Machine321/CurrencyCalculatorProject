@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3377F46B6363E67FCBA854B335D19544 /* NTMonthYearPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C457B9EACF0903696EEF6ED9D7DD79A /* NTMonthYearPicker-dummy.m */; };
+		5A95E89111B2FCE9A5006CC4B656E286 /* NTMonthYearPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F1F1E4D029D3864FB72EEEC4873A42 /* NTMonthYearPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7A0349E28C17F017045CC56A05EBD65B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7BE1A1600C9EBCAFC303205F820FA803 /* NTMonthYearPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F447BD6DEE34C3F803EE25A6B625059 /* NTMonthYearPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		908AD8D95377D06EEB1F389AB845E112 /* Pods-CurrencyCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B80B64EB68AB3F438A205A366A2A9973 /* Pods-CurrencyCalculator-dummy.m */; };
+		F04F0B9FB2F0ABF03AA465D70DE1F795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4213FE1CD9263C0D3D7D067029085D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA68F1967178E1ECF4BE902133BFD60;
+			remoteInfo = NTMonthYearPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1636FD4F0EEAE41FFE68A178CF9D2B94 /* libNTMonthYearPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNTMonthYearPicker.a; path = libNTMonthYearPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		320702BEA465F69889411E85B7973DE2 /* Pods-CurrencyCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CurrencyCalculator-resources.sh"; sourceTree = "<group>"; };
+		32FA5F036B9E6A074BC06086BCE30AD9 /* Pods-CurrencyCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CurrencyCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36AE6D323255E576C785CCF1B2CF0B9F /* Pods-CurrencyCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B8E5C73EEF22CFDACE8CB39FCFC9813 /* NTMonthYearPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NTMonthYearPicker.xcconfig; sourceTree = "<group>"; };
+		5E62C498B05208517A9BF6776B9155DB /* Pods-CurrencyCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C457B9EACF0903696EEF6ED9D7DD79A /* NTMonthYearPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NTMonthYearPicker-dummy.m"; sourceTree = "<group>"; };
+		88C7C7778BD82B67421CED0CEF57F930 /* Pods-CurrencyCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		8F447BD6DEE34C3F803EE25A6B625059 /* NTMonthYearPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NTMonthYearPicker.h; path = NTMonthYearPicker/NTMonthYearPicker.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A796FD5703A6DB83109307F0052E0F3B /* NTMonthYearPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NTMonthYearPicker-prefix.pch"; sourceTree = "<group>"; };
+		B80B64EB68AB3F438A205A366A2A9973 /* Pods-CurrencyCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CurrencyCalculator-dummy.m"; sourceTree = "<group>"; };
+		C0F1F1E4D029D3864FB72EEEC4873A42 /* NTMonthYearPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NTMonthYearPicker.m; path = NTMonthYearPicker/NTMonthYearPicker.m; sourceTree = "<group>"; };
+		D59D66BBF35ACE137825DB4345F1C044 /* Pods-CurrencyCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CurrencyCalculator-frameworks.sh"; sourceTree = "<group>"; };
+		E6B1E9F538377B688A2F1FEF0EA9BEA7 /* libPods-CurrencyCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CurrencyCalculator.a"; path = "libPods-CurrencyCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB6B90D2AAD197B16B532F2590F35C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0349E28C17F017045CC56A05EBD65B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7756508513982348C9CC1E01E8070E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04F0B9FB2F0ABF03AA465D70DE1F795 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E5D147675AB4AF5260D758CA14E0A41 /* Pods-CurrencyCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				32FA5F036B9E6A074BC06086BCE30AD9 /* Pods-CurrencyCalculator-acknowledgements.markdown */,
+				36AE6D323255E576C785CCF1B2CF0B9F /* Pods-CurrencyCalculator-acknowledgements.plist */,
+				B80B64EB68AB3F438A205A366A2A9973 /* Pods-CurrencyCalculator-dummy.m */,
+				D59D66BBF35ACE137825DB4345F1C044 /* Pods-CurrencyCalculator-frameworks.sh */,
+				320702BEA465F69889411E85B7973DE2 /* Pods-CurrencyCalculator-resources.sh */,
+				5E62C498B05208517A9BF6776B9155DB /* Pods-CurrencyCalculator.debug.xcconfig */,
+				88C7C7778BD82B67421CED0CEF57F930 /* Pods-CurrencyCalculator.release.xcconfig */,
+			);
+			name = "Pods-CurrencyCalculator";
+			path = "Target Support Files/Pods-CurrencyCalculator";
+			sourceTree = "<group>";
+		};
+		4F0E5F24A382936B628FA82E3DC827AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1636FD4F0EEAE41FFE68A178CF9D2B94 /* libNTMonthYearPicker.a */,
+				E6B1E9F538377B688A2F1FEF0EA9BEA7 /* libPods-CurrencyCalculator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				89C7A2AF4DDC90602172632723BD6CAC /* Pods */,
+				4F0E5F24A382936B628FA82E3DC827AB /* Products */,
+				DF10F4A4B9E81B51DDA79922FCF06E75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89C7A2AF4DDC90602172632723BD6CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBEDD4E7539A9FF3BC395211C7C1D8C9 /* NTMonthYearPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4AD1EBA8DD3F4FB858457734E1ADA13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B8E5C73EEF22CFDACE8CB39FCFC9813 /* NTMonthYearPicker.xcconfig */,
+				7C457B9EACF0903696EEF6ED9D7DD79A /* NTMonthYearPicker-dummy.m */,
+				A796FD5703A6DB83109307F0052E0F3B /* NTMonthYearPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NTMonthYearPicker";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBEDD4E7539A9FF3BC395211C7C1D8C9 /* NTMonthYearPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8F447BD6DEE34C3F803EE25A6B625059 /* NTMonthYearPicker.h */,
+				C0F1F1E4D029D3864FB72EEEC4873A42 /* NTMonthYearPicker.m */,
+				B4AD1EBA8DD3F4FB858457734E1ADA13 /* Support Files */,
+			);
+			name = NTMonthYearPicker;
+			path = NTMonthYearPicker;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF10F4A4B9E81B51DDA79922FCF06E75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D147675AB4AF5260D758CA14E0A41 /* Pods-CurrencyCalculator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D26D24D08AB65BFD20101D3FA0C50E5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE1A1600C9EBCAFC303205F820FA803 /* NTMonthYearPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DFA68F1967178E1ECF4BE902133BFD60 /* NTMonthYearPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C089EA5C4709AFDFF3E89B78FD9B7B6 /* Build configuration list for PBXNativeTarget "NTMonthYearPicker" */;
+			buildPhases = (
+				CC89B7C11E94A4D2E3D4105DB17076EE /* Sources */,
+				AAB6B90D2AAD197B16B532F2590F35C5 /* Frameworks */,
+				D26D24D08AB65BFD20101D3FA0C50E5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTMonthYearPicker;
+			productName = NTMonthYearPicker;
+			productReference = 1636FD4F0EEAE41FFE68A178CF9D2B94 /* libNTMonthYearPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F535BE10C9BB77F692244395C44DD480 /* Pods-CurrencyCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4FFA10A3F72609CB1AB40AEF6F5768 /* Build configuration list for PBXNativeTarget "Pods-CurrencyCalculator" */;
+			buildPhases = (
+				27C4672B8C09956191A47AB56470D070 /* Sources */,
+				D7756508513982348C9CC1E01E8070E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488FFFB18243C2D12D01B2C77111613D /* PBXTargetDependency */,
+			);
+			name = "Pods-CurrencyCalculator";
+			productName = "Pods-CurrencyCalculator";
+			productReference = E6B1E9F538377B688A2F1FEF0EA9BEA7 /* libPods-CurrencyCalculator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4F0E5F24A382936B628FA82E3DC827AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA68F1967178E1ECF4BE902133BFD60 /* NTMonthYearPicker */,
+				F535BE10C9BB77F692244395C44DD480 /* Pods-CurrencyCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C4672B8C09956191A47AB56470D070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908AD8D95377D06EEB1F389AB845E112 /* Pods-CurrencyCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC89B7C11E94A4D2E3D4105DB17076EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3377F46B6363E67FCBA854B335D19544 /* NTMonthYearPicker-dummy.m in Sources */,
+				5A95E89111B2FCE9A5006CC4B656E286 /* NTMonthYearPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		488FFFB18243C2D12D01B2C77111613D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NTMonthYearPicker;
+			target = DFA68F1967178E1ECF4BE902133BFD60 /* NTMonthYearPicker */;
+			targetProxy = F4213FE1CD9263C0D3D7D067029085D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DE9F11B22213040453DF43EB89B394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8E5C73EEF22CFDACE8CB39FCFC9813 /* NTMonthYearPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NTMonthYearPicker/NTMonthYearPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5871CFBF7804271E106907892217595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E62C498B05208517A9BF6776B9155DB /* Pods-CurrencyCalculator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8E965B53C9139251128A5498AC32DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8E5C73EEF22CFDACE8CB39FCFC9813 /* NTMonthYearPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NTMonthYearPicker/NTMonthYearPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E05D32DA4CFEDC83BB2367633A56449F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C7C7778BD82B67421CED0CEF57F930 /* Pods-CurrencyCalculator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C089EA5C4709AFDFF3E89B78FD9B7B6 /* Build configuration list for PBXNativeTarget "NTMonthYearPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE9F11B22213040453DF43EB89B394D /* Debug */,
+				C8E965B53C9139251128A5498AC32DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4FFA10A3F72609CB1AB40AEF6F5768 /* Build configuration list for PBXNativeTarget "Pods-CurrencyCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5871CFBF7804271E106907892217595 /* Debug */,
+				E05D32DA4CFEDC83BB2367633A56449F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
