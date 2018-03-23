@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DFA68F1967178E1ECF4BE902133BFD60"
-               BlueprintName = "NTMonthYearPicker"
+               BlueprintIdentifier = "47CEE08A79499001F936DA5C8F5634D3"
+               BlueprintName = "MonthYearPicker"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libNTMonthYearPicker.a">
+               BuildableName = "MonthYearPicker.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

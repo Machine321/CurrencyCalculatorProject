@@ -1,12 +1,12 @@
 PODS:
-  - NTMonthYearPicker (1.0.0)
+  - MonthYearPicker (3.0.0)
 
 DEPENDENCIES:
-  - NTMonthYearPicker
+  - MonthYearPicker
 
 SPEC CHECKSUMS:
-  NTMonthYearPicker: 27e1739d6e29428628c8275a7c1a9e4835c352f4
+  MonthYearPicker: 59cfa26c5bfbbc52ef147360d9846c349f578991
 
-PODFILE CHECKSUM: 17f32b2cb8e117862fe53cad9d4ba71e7421962b
+PODFILE CHECKSUM: cbc9bb21e4ec97326a7fd99a4622718f18bdc104
 
 COCOAPODS: 1.4.0
