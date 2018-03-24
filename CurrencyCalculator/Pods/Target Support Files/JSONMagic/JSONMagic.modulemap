@@ -1,0 +1,6 @@
+framework module JSONMagic {
+  umbrella header "JSONMagic-umbrella.h"
+
+  export *
+  module * { export * }
+}

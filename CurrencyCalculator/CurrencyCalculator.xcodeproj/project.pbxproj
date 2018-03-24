@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		20021C9C205F21E000D4C0A3 /* MonthCurrencyChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20021C9B205F21E000D4C0A3 /* MonthCurrencyChartViewController.swift */; };
+		2015B165206596A5003E0501 /* MonthRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015B164206596A5003E0501 /* MonthRates.swift */; };
 		20280E4D205F1A260023DE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20280E4C205F1A260023DE98 /* AppDelegate.swift */; };
 		20280E4F205F1A260023DE98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20280E4E205F1A260023DE98 /* ViewController.swift */; };
 		20280E52205F1A260023DE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20280E50205F1A260023DE98 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		20021C9B205F21E000D4C0A3 /* MonthCurrencyChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCurrencyChartViewController.swift; sourceTree = "<group>"; };
+		2015B164206596A5003E0501 /* MonthRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthRates.swift; sourceTree = "<group>"; };
 		20280E49205F1A260023DE98 /* CurrencyCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20280E4C205F1A260023DE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20280E4E205F1A260023DE98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				20280E4C205F1A260023DE98 /* AppDelegate.swift */,
 				20280E4E205F1A260023DE98 /* ViewController.swift */,
 				20280E50205F1A260023DE98 /* Main.storyboard */,
+				2015B164206596A5003E0501 /* MonthRates.swift */,
 				2048302E20655C960086CAEF /* BarChartViewController.swift */,
 				205BD60320641C6100449ED3 /* RatesTableViewController.swift */,
 				205BD60520641E8500449ED3 /* CurrencyRates.swift */,
@@ -191,6 +194,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-CurrencyCalculator/Pods-CurrencyCalculator-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONMagic/JSONMagic.framework",
 				"${BUILT_PRODUCTS_DIR}/MonthYearPicker/MonthYearPicker.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
@@ -199,6 +203,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONMagic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MonthYearPicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2015B165206596A5003E0501 /* MonthRates.swift in Sources */,
 				205BD60620641E8500449ED3 /* CurrencyRates.swift in Sources */,
 				205BD60420641C6100449ED3 /* RatesTableViewController.swift in Sources */,
 				2048302F20655C960086CAEF /* BarChartViewController.swift in Sources */,

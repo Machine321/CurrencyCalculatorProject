@@ -13,8 +13,7 @@ class MonthCurrencyChartViewController: UIViewController, UIPickerViewDelegate, 
     
 
     let currencies=Currencies()
-    var activeCurrency="PLN"
-    var targetCurrency="EUR"
+    var activeCurrency="USD"
     
     
     let separatedDate = Calendar.current.dateComponents([.year, .month, .day], from: Date())
@@ -43,10 +42,6 @@ class MonthCurrencyChartViewController: UIViewController, UIPickerViewDelegate, 
         if (pickerView.tag == 0){
             activeCurrency=currencies.myCurrency[row]
         }
-        else
-        {
-            targetCurrency=currencies.myCurrency[row]
-        }
     }
     
     
@@ -63,7 +58,7 @@ class MonthCurrencyChartViewController: UIViewController, UIPickerViewDelegate, 
         month=separatedDate.month!
         
         activeCurrency=currencies.myCurrency[0]
-        targetCurrency=currencies.myCurrency[0]
+        //targetCurrency=currencies.myCurrency[0]
         
         // Do any additional setup after loading the view.
     }
@@ -102,7 +97,7 @@ class MonthCurrencyChartViewController: UIViewController, UIPickerViewDelegate, 
             errorLabel.text="Select month from past!"
             
         }
-        else if(activeCurrency==targetCurrency)
+        else if(activeCurrency=="PLN")
         {
             errorLabel.text="Select different target currency!"
         }
@@ -114,6 +109,12 @@ class MonthCurrencyChartViewController: UIViewController, UIPickerViewDelegate, 
         return checker
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondController=segue.destination as! BarChartViewController
+        secondController.base=activeCurrency
+        secondController.month=month
+        secondController.year=year
+    }
     /*
     // MARK: - Navigation
 

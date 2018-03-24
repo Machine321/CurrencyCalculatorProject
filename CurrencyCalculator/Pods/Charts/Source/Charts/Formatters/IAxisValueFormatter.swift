@@ -24,7 +24,10 @@ public protocol IAxisValueFormatter: class
     /// - parameter value:           the value that is currently being drawn
     /// - parameter axis:            the axis that the value belongs to
     ///
+    /*
     func stringForValue(_ value: Double,
                         axis: AxisBase?) -> String
+    */
+    func stringForValue(_ value: Double, axis: AxisBase?) -> String
     
 }
